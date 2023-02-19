@@ -6,6 +6,8 @@ pipeline {
         sh 'npm run build'
       }
     }
-
+  tools {
+      go 'node-18'
+    }
   }
 }
